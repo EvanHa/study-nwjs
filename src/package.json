@@ -1,0 +1,23 @@
+{
+  "name": "nwjs_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "views/main.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "windows": {
+    "title": "study nwjs",
+    "toolbar" : true,
+    "width" : 1920,
+    "height" : 1080,
+    "min_width" : 800,
+    "min_height" : 600,
+    "max_width" : 1920,
+    "max_height" : 1080,
+    "position": "mouse"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "study-nwjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platform win64,osx,linux64 --buildDir dist/ --name study src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvanHa/study-nwjs.git"
+  },
+  "node-remote": "http://localhost:3000",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvanHa/study-nwjs/issues"
+  },
+  "homepage": "https://github.com/EvanHa/study-nwjs#readme",
+  "devDependencies": {
+    "nw": "^0.51.2",
+    "nw-builder": "^3.5.7"
+  }
+}
